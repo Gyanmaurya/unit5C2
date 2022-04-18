@@ -8,7 +8,7 @@ export const AddStudent = () => {
   useEffect(()=>{
     getData();
 
-   },[])
+   },[]);
 
 
     const getData= ()=>{
